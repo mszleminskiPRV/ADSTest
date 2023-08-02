@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Procurement Publication">
+  <name>Procurement-Publication</name>
+  <uuid>87759a3a-4dcb-4b05-913d-e7f723e2554a</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#c6e196ee-b8fe-4ffc-9a8d-045accf39b42"/>
+  <targetRuleProject href="../../Procurement%20Publication#e72cd865-6019-4b61-b8de-f4d428986725"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

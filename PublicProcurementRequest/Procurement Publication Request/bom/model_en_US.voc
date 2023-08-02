@@ -1,0 +1,39 @@
+
+# maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList#concept.label = DestinationTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList.BZP#instance.label = BZP
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList.TED#instance.label = TED
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList.WEBSITE#instance.label = WEBSITE
+
+# maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList#concept.label = OrderTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList.GOODS#instance.label = GOODS
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList.SERVICES#instance.label = SERVICES
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList.WORKS#instance.label = WORKS
+
+# maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest#concept.label = Publication Request
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.PublicationRequest(maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList,double,maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList,java.lang.Long,maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList)#phrase.navigation = a new {Publication Request} where {0, destination} {1, estimated cost} {2, order type} {3, repeat count} {4, status}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.destination#phrase.action = set the destination of {this} to {destination}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.destination#phrase.clearer = clear the destination of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.destination#phrase.navigation = {destination} of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.estimatedCost#phrase.action = set the estimated cost of {this} to {estimated cost}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.estimatedCost#phrase.addition_setter = add {estimated cost} to the estimated cost of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.estimatedCost#phrase.navigation = {estimated cost} of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.estimatedCost#phrase.subtraction_setter = subtract {estimated cost} from the estimated cost of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.orderType#phrase.action = set the order type of {this} to {order type}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.orderType#phrase.clearer = clear the order type of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.orderType#phrase.navigation = {order type} of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.repeatCount#phrase.action = set the repeat count of {this} to {repeat count}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.repeatCount#phrase.addition_setter = add {repeat count} to the repeat count of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.repeatCount#phrase.navigation = {repeat count} of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.repeatCount#phrase.subtraction_setter = subtract {repeat count} from the repeat count of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.status#phrase.action = set the status of {this} to {status}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.status#phrase.clearer = clear the status of {this}
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest.status#phrase.navigation = {status} of {this}
+
+# maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList#concept.label = StatusTypeList
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList.ACCEPTED#instance.label = ACCEPTED
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList.FORWARDED#instance.label = FORWARDED
+maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList.REJECTED#instance.label = REJECTED

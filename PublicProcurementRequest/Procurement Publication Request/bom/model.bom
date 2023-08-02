@@ -1,0 +1,92 @@
+
+package maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication;
+
+
+public class DestinationTypeList
+        extends java.lang.Enum
+        property "ads.typeId" "3"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "DestinationTypeList"
+        property "de.generated" "true"
+{
+    domain {static BZP, static TED, static WEBSITE}
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList BZP
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "BZP";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList TED
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "TED";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList WEBSITE
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "WEBSITE";
+}
+
+public class OrderTypeList
+        extends java.lang.Enum
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "OrderTypeList"
+        property "de.generated" "true"
+{
+    domain {static GOODS, static SERVICES, static WORKS}
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList GOODS
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "GOODS";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList SERVICES
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "SERVICES";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList WORKS
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "WORKS";
+}
+
+public class PublicationRequest
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "PublicationRequest"
+        property "de.generated" "true"
+{
+    public maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList destination
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "destination"
+                property update "true";
+    public double estimatedCost
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "estimatedCost"
+                property update "true";
+    public maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList orderType
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "orderType"
+                property update "true";
+    public java.lang.Long repeatCount
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "repeatCount"
+                property update "true";
+    public maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList status
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "status"
+                property update "true";
+    public PublicationRequest(maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.DestinationTypeList destination, double estimatedCost, maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.OrderTypeList orderType, java.lang.Long repeatCount, maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList status)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public PublicationRequest()
+                property "dataio.default" "true";
+}
+
+public class StatusTypeList
+        extends java.lang.Enum
+        property "ads.typeId" "4"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "StatusTypeList"
+        property "de.generated" "true"
+{
+    domain {static ACCEPTED, static FORWARDED, static REJECTED}
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList ACCEPTED
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "ACCEPTED";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList FORWARDED
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "FORWARDED";
+    public static final readonly maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.StatusTypeList REJECTED
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "REJECTED";
+}
+

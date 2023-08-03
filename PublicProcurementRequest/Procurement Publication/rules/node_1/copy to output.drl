@@ -3,8 +3,8 @@
   <name>copy to output</name>
   <uuid>e538c2ae-74ad-46f2-a5c6-e5de34022a9c</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to a new Publication Request where
-		the status is REJECTED , 
+  <definition><![CDATA[set decision to a new Publication Request where 
+		the status is REJECTED, 
 		the destination is the destination of Request , 
 		the estimated cost is the estimated cost of Request , 
 		the order type is the order type of Request , 

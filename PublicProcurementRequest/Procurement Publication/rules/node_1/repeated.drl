@@ -4,5 +4,6 @@
   <uuid>134a309c-cf51-437b-a7b1-3cdf3b5794e7</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if the repeat count of Request is at least 3 and the destination of Request is WEBSITE
+and the order type of Request is not WORKS 
 then set the status of decision to ACCEPTED ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

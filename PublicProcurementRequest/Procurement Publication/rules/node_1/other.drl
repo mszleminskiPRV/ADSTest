@@ -3,6 +3,6 @@
   <name>other</name>
   <uuid>5d6e08ee-1f51-4e9c-b798-c78314e07cbf</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[if the status of decision is not ACCEPTED or the status of decision is not FORWARDED
+  <definition><![CDATA[if the status of decision is not ACCEPTED and the status of decision is not FORWARDED
 then set the status of decision to REJECTED; ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

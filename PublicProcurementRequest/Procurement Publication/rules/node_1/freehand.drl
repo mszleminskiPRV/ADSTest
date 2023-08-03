@@ -4,5 +4,6 @@
   <uuid>73fb811c-902a-462b-bea6-d87283204760</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if the estimated cost of Request ≤ 30000 and the destination of Request is WEBSITE
+and the order type of Request is not WORKS 
 then set the status of decision to ACCEPTED;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

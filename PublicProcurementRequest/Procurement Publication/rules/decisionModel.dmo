@@ -21,7 +21,12 @@
                 <input bomType="maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest" collection="false" name="Request"/>
                 <output bomType="maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest" collection="false" name="Decision"/>
                 <rule defaultRule="false" href="node_1/copy%20to%20output.drl" kind="BusinessRule" name="copy to output"/>
+                <rule defaultRule="false" href="node_1/works.drl" kind="BusinessRule" name="works"/>
+                <rule defaultRule="false" href="node_1/ted.drl" kind="BusinessRule" name="ted"/>
                 <rule defaultRule="false" href="node_1/bzp.drl" kind="BusinessRule" name="bzp"/>
+                <rule defaultRule="false" href="node_1/freehand.drl" kind="BusinessRule" name="freehand"/>
+                <rule defaultRule="false" href="node_1/repeated.drl" kind="BusinessRule" name="repeated"/>
+                <rule defaultRule="false" href="node_1/other.drl" kind="BusinessRule" name="other"/>
             </ruleset>
         </extensionElements>
         <variable id="node_1_ii" name="Decision" typeRef="maciej.szleminski_pl.ibm.com.szlemotest.publicprocurementrequest.procurementpublication.PublicationRequest"/>
